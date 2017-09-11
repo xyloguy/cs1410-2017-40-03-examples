@@ -48,7 +48,10 @@ class Card:
 
 #kingspades = Card('K', 'spades')
 
+# possible suits
 suits = ['S', 'H', 'D', 'C']
+
+# possible cards
 displays = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']
 deck = []
 
