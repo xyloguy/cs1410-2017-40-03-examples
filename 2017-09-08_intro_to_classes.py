@@ -20,12 +20,12 @@ def createRedMarker():
     return Marker('red')
 
 def drawLine(marker, length):
-    for i in range(length):
+    for i in range(1, length + 1):
         if marker.isEmpty():
             print('Your marker is empty')
             break
         marker.write()
-    print('Your line is: ' + )
+    print('Your line is: ' + i + ' in length')
 
 
 
