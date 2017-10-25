@@ -30,7 +30,7 @@ class RedExpoMarker(ExpoMarker):
         ExpoMarker.__init__(self, color)
 
 
-
+b1 = ExpoMarker('blue')
 m1 = BlueExpoMarker()
 r1 = RedExpoMarker()
 
