@@ -22,10 +22,20 @@ class Dog(Animal):
     def speak(self):
         return 'woof'
 
-dog = Animal('Tweety', 'bird')
+
+class TweetyBird(Animal):
+    def __init__(self):
+        Animal.__init__(self, 'Tweety', 'bird')
+
+    def speak(self):
+        return 'I tought I saw a putty cat.'
+
+
+dog = TweetyBird()
 cat = Cat('Garfield')
 bird = Dog('Odie')
 
 print(dog.name, dog.breed)
+print(dog.speak())
 print(cat.speak())
 print(bird.speak())
