@@ -68,7 +68,7 @@ class Circle:
         if self.y <= 0:
             self.dy = -self.dy
             self.y = 0
-            
+
         if self.y + self.radius >= HEIGHT:
             self.dy = -self.dy
             self.y = HEIGHT-self.radius
